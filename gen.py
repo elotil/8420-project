@@ -5,6 +5,9 @@ import numpy as np
 import pandas as pd
 from sklearn.metrics import mean_squared_error
 
+# dataset not part of project files
+# download from:
+# https://www.kaggle.com/datasets/jillanisofttech/amazon-product-reviews
 df = pd.read_csv('./data/Reviews.csv')
 
 # drop NaNs
